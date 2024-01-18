@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 22vh;
+}
+
+.logo{
+    padding-left: 6vw;
+    padding-top: 4vh
+}
