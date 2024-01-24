@@ -7,11 +7,11 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 22vh;
+    height: 18vh;
 }
 
 .logo{
-    padding-left: 6vw;
+    padding-left: 7vw;
     padding-top: 4vh
 }
 
@@ -45,7 +45,7 @@ input::placeholder{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 4vw;
+    margin-right: 2vw;
     width: 14vw;
     height: 8vh;
     margin-top: 4vh;
@@ -71,5 +71,24 @@ input::placeholder{
     width: 2vw;
     height: 4vh;
     margin-right: 8vw;
+}
+
+.opcoes{
+    display: flex;
+    width: 100vw;
+    height: 4vh;
+    padding-left: 5vw;
+}
+
+.opcoes a:hover{
+    text-decoration: underline;
+}
+
+.iconSpace{
+    font-size: 16px;
+    padding-left: 2vw;
+    color: rgb(201, 32, 113);
+    text-decoration: none;
+    font-weight: bold;
 }
 
