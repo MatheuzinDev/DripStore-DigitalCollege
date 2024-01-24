@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 18vh;
+    height: 19vh;
 }
 
 .logo{
@@ -45,7 +45,7 @@ input::placeholder{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 2vw;
+    margin-right: 4.5vw;
     width: 14vw;
     height: 8vh;
     margin-top: 4vh;
@@ -70,7 +70,7 @@ input::placeholder{
     margin-top: 6vh;
     width: 2vw;
     height: 4vh;
-    margin-right: 8vw;
+    margin-right: 6vw;
 }
 
 .opcoes{
@@ -82,12 +82,13 @@ input::placeholder{
 
 .opcoes a:hover{
     text-decoration: underline;
+    color: rgb(201, 32, 113);
 }
 
 .iconSpace{
     font-size: 16px;
     padding-left: 2vw;
-    color: rgb(201, 32, 113);
+    color: rgb(117, 117, 117);
     text-decoration: none;
     font-weight: bold;
 }
